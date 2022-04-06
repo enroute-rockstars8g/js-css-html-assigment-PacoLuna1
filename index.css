@@ -115,4 +115,59 @@ nav  a{
 
 .program-container{
   min-height: 700px;
+  text-align: center;
+}
+
+.program-container #plato{
+  width: 100%;
+  height: 700px;
+  background-image: url("/images/plato.png");
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  background-repeat: no-repeat;
+}
+
+.program-container input{
+  margin-bottom: 20px;
+  border-radius: 40px;
+  border: 1px solid #000;
+  height: 25px;
+  padding: 3px 7px;
+}
+
+.program-container button{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  height: 25px;
+  width: 100px;
+  text-decoration: none;
+}
+
+.program-container #plato .taco{
+  margin: 0 2px;
+}
+
+.program-container #space{
+  width: 100%;
+  height: 700px;
+  background-image: url("/images/space.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.program-container #space .fa-star{
+  margin: 0 2px;
+  color: #fff;
+  position: absolute;
 }
